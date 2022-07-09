@@ -32,8 +32,9 @@ user = int(input("what do u choose? type 0 for ROCK type 1 for PAPER type 2 for 
 print("you choose")
 print(game_images[user])
 x = random.randint(0,2)
-systemChoose = game_images[x]
+systemChoose = x
 print("computer choose")
+print(x)
 print(game_images[x])
 
 # if user choose rock
